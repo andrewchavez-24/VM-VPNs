@@ -21,6 +21,7 @@ This tutorial outlines the implementation of Virtual Machines within Azure.<br /
 - Create a Windows 10 Virtual Machine (VM)
 - Create a Linux (Ubuntu) VM
 - Observe Your Virtual Network within Network Watcher
+- Set up Remote Desktop
 
 <h2>Deployment and Configuration Steps</h2>
 
