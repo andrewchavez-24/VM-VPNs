@@ -2,14 +2,13 @@
 <img src="https://i.imgur.com/pU5A58S.png" alt="Microsoft Active Directory Logo"/>
 </p>
 
-<h1>Creating Virtual Machines (Azure) for Remote Desktop and VPNs</h1>
-This tutorial outlines the implementation of Virtual Machines within Azure and creating VPNs.<br />
+<h1>Creating Virtual Machines (Azure) for Remote Desktop</h1>
+This tutorial outlines the implementation of Virtual Machines within Azure.<br />
 
 <h2>Environments and Technologies Used</h2>
 
 - Microsoft Azure (Virtual Machines/Compute)
 - Remote Desktop
-- VPNs
 
 <h2>Operating Systems Used </h2>
 
@@ -18,10 +17,10 @@ This tutorial outlines the implementation of Virtual Machines within Azure and c
 
 <h2>High-Level Deployment and Configuration Steps</h2>
 
-- Step 1
-- Step 2
-- Step 3
-- Step 4
+- Create a Resource Group
+- Create a Windows 10 Virtual Machine (VM)
+- Create a Linux (Ubuntu) VM
+- Observe Your Virtual Network within Network Watcher
 
 <h2>Deployment and Configuration Steps</h2>
 
