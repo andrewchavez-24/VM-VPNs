@@ -2,12 +2,13 @@
 <img src="https://i.imgur.com/pU5A58S.png" alt="Microsoft Active Directory Logo"/>
 </p>
 
-<h1>Creating Virtual Machines (Azure)</h1>
+<h1>Creating Virtual Machines (Azure) for Remote Desktop</h1>
 This tutorial outlines the implementation of Virtual Machines within Azure.<br />
 
 <h2>Environments and Technologies Used</h2>
 
 - Microsoft Azure (Virtual Machines/Compute)
+- Remote Desktop
 
 <h2>Operating Systems Used </h2>
 
@@ -86,4 +87,29 @@ Create a Resource Group
 <p>Then, do the same for "windows-vm"</p>
 <p>
   <img src="https://github.com/user-attachments/assets/db55e41e-011f-446e-b014-a640caa66ca6" height="80%" width="80%"/>
+</p>
+
+<br>
+<h3>Use Remote Desktop to connect to your Windows 10 Virtual Machine</h3>
+<p>If using Mac, install Windows App (Previously, Microsoft Remote Desktop)</p>
+<p>
+  <img src="https://github.com/user-attachments/assets/03a223d4-9abe-4e45-b0b7-e620a4cd78da" height="80%" width="80%"/>
+</p>
+
+<br>
+<p>Copy the Public IP address for windows-vm</p>
+<p>
+  <img src="https://github.com/user-attachments/assets/b0dc3fce-69c8-4347-a29b-46f5db79d1b2" height="80%" width="80%"/>
+</p>
+
+<br>
+<p>Open the Windows App, click add PC at the top right corner, paste the IP address here and make sure to name it.</p>
+<p>
+  <img src="https://github.com/user-attachments/assets/17f0b014-8b5f-4899-aa7b-689ceb7c2809" height="80%" width="80%"/>
+</p>
+
+<br>
+<p>Log in using the username and password you created.</p>
+<p>
+  <img src="https://github.com/user-attachments/assets/ac4417ec-a234-425f-9663-8326b43e0e36" height="80%" width="80%"/>
 </p>
